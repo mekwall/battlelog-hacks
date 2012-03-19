@@ -5,10 +5,13 @@ EA's new Battlelog service is pretty awesome. Except when it isn't.
 ## What does this script do?
 
 * Auto-retries server join so you don't have to spam the button. To cancel auto-retry, click the "Close" button in the Game Manager error popup.
+  * Battlelog dev notes: Under review; might not get fixed.
 * <del>Remembers and auto-re-applies server browser sorting preference.</del> **Fixed!**
-* Automatically selects the first server in the server browser after refreshing or sorting.
+* <del>Automatically selects the first server in the server browser after refreshing or sorting.</del> **Fixed!**
 * Prevents the server browser from scrolling to the top of the page on refresh.
+  * Battlelog dev notes: Confirmed bug; will be fixed.
 * Ensures that Com center Online friends starts opened, while Offline friends starts collapsed.
+  * Battlelog dev notes: Partially fixed; offline friends starts collapsed when more then three friends are online.
 
 ## What might this script do in the future?
 
